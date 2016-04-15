@@ -4,22 +4,14 @@
 //what parameters you pass in to the factory method
 //1) the name of the service (here 'eventData')
 //2) a function that returns the object that will become that service
-eventsApp.factory('eventData', function ($http, $log) {
+eventsApp.factory('eventData', function ($http) {
     return {
-        getEvent: function (successCallBack) {
+        getEvent: function () {
+
+            //we will just return the result of the http call
             //we pass the GET method & the url of the resource we are seeking
-            //since the http call is asynchronous, we cannot just return it but
-            //we need to pass in a sucess call back (successCallBack)
-            //that we can call when it succeeds
-           $http({method:'GET', url:'/data/event/1'}).
-            success(function(data,status,headers,config){
-               //function in case of success
-               successCallBack(data);
-            }).
-           error(function (data,status,headers,config){
-               //function in case of error
-                $log.warn(data, status, headers(), config);
-            })
+
+            return $http({method:'GET', url:'/data/event/1'});
         }
         //here above we are actually using the promise design pattern
         //since htpp returns a "promise" we don't need to pass in a callback method
