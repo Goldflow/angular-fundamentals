@@ -4,18 +4,22 @@
 //what parameters you pass in to the factory method
 //1) the name of the service (here 'eventData')
 //2) a function that returns the object that will become that service
-eventsApp.factory('eventData', function ($http) {
+
+//here we inject resource
+eventsApp.factory('eventData', function ($resource) {
     return {
         getEvent: function () {
 
-            //we will just return the result of the http call
-            //we pass the GET method & the url of the resource we are seeking
-
-            return $http({method:'GET', url:'/data/event/1'});
+            //to make $resource work, we need to register the module with the app (in app.js here)
+            //based on restful architecture
+            //so assumes your service is using restbased architecture
+            return $resource('/data/event/:id', //this is the format of the (rest)url
+                {id:'@id'})//second parameter of the resource,
+                // is an object that specifies default values that are used in that route
+                // so > id in url will be replaced by id in object being saved/retrieved
+                .get({id:1}); //so we call get, we pass object to say we want object with id 1
         }
-        //here above we are actually using the promise design pattern
-        //since htpp returns a "promise" we don't need to pass in a callback method
-    }
+      }
 });
 
 

@@ -15,6 +15,30 @@ eventsApp.controller('EventController',
 
 
 
+        //unlike http service (see below in comments), we can bind directly to a $resource service
+        //needs a callback function to call in case it succeeds
+        //this function represents the successCallBack defined in the EventData
+        $scope.event = eventData.getEvent()
+        //it will take a while for that request to be fulfilled
+        //and once it, does, the event will be set to that was gotten
+        //it's not a promise but the object that will be retrieved has a promise attached to it so:
+            .$promise
+            .then(
+                function(event){//on then(onFullFilled)
+                    $scope.event=event;console.log(event);
+                }
+            )//to handle date before it returned (and then binded)
+            //then can also contain second function here below;
+            //onRejected for example
+            .catch(
+                function(response){
+                    console.log(response);
+                    //in case the exspected data is not returned
+                    //then we print out the response (for example 404)
+                }
+            )
+
+        /*
         //needs a callback function to call in case it succeeds
         //this function represents the successCallBack defined in the EventData
         eventData.getEvent()
@@ -30,6 +54,7 @@ eventsApp.controller('EventController',
             })
 
         ;
+        //*/
 
 
         $scope.upVoteSession = function(session) {

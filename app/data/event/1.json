@@ -7,7 +7,7 @@
                 "city": "Mountain View",
                 "province": "CA"
             },
-            "imageUrl": "http://pascalprecht.github.com/slides/angularjs-insights/img/angularjs-logo.png",
+            "imageUrl": "./img/angularjs-logo.png",
             "sessions": [
                 {
 					"id": 1,
