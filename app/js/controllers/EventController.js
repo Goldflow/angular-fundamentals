@@ -4,7 +4,7 @@ eventsApp.controller('EventController',
     //this function will be the controller itself
     //controller's responsability is the create the scope
     //we will pass empty $scope & the controller will populate this scope with the model
-    function EventController($scope, eventData, $log){
+    function EventController($scope, eventData, $log,$anchorScroll){
 
         $scope.sortorder = '-upVoteCount'; //-upVoteCount when  used as filter, will be sorted by highest upVoteCount first
         //upVoteCount when  used as filter, will be sorted by lowest upVoteCount first
@@ -65,5 +65,9 @@ eventsApp.controller('EventController',
         $scope.downVoteSession = function(session) {
             session.upVoteCount--;
         };
+
+        $scope.scrollToSession = function() {
+            $anchorScroll()
+        }
     }
 );

@@ -21,6 +21,7 @@
             waits until angular js has taken necessary data before loading img
              otherwise would be 404-->
             <img ng-src="{{event.imageUrl}}" alt="{{event.name}}">
+            <button type="button" class="btn btn-primary" ng-click="scrollToSession()">Scroll</button>
             <div class="row">
                 <div class="span11">
                     <h2 ng-bind-template="{{event.name | uppercase}}"></h2>
@@ -66,7 +67,7 @@
 
             <ul class="thumbnails">
                 <!-- will repeat amount of li, for each session found in sessions array inside event -->
-                <li ng-repeat="session in event.sessions | orderBy: sortorder | filter: query">
+                <li ng-repeat="session in event.sessions | orderBy: sortorder | filter: query" id="session{{session.id}}" >
 
                     <div class="row session">
                         <div class="span0 well votingWidget">

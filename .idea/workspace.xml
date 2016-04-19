@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af80107b-e135-4b7c-a46a-dbb13ae49404" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/NewEvent.html" afterPath="$PROJECT_DIR$/app/NewEvent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/EditEventController.js" afterPath="$PROJECT_DIR$/app/js/controllers/EditEventController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/services/EventData.js" afterPath="$PROJECT_DIR$/app/js/services/EventData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/EventDetails.html" afterPath="$PROJECT_DIR$/app/EventDetails.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/EventController.js" afterPath="$PROJECT_DIR$/app/js/controllers/EventController.js" />
     </list>
     <ignored path="DemoApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditEventController.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EditEventController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers/EditEventController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -81,8 +79,8 @@
       <file leaf-file-name="EventDetails.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/EventDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+            <state relative-caret-position="471">
+              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -98,13 +96,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventController.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EventController.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/controllers/EventController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
               <folding>
-                <marker date="1460812818305" expanded="true" signature="558:567" placeholder="..." />
+                <marker date="1461082779009" expanded="true" signature="572:581" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -156,12 +154,12 @@
         <option value="$PROJECT_DIR$/scripts/web-server.js" />
         <option value="$PROJECT_DIR$/scripts/eventsController.js" />
         <option value="$PROJECT_DIR$/app/js/app.js" />
-        <option value="$PROJECT_DIR$/app/EventDetails.html" />
         <option value="$PROJECT_DIR$/app/data/event/1.json" />
-        <option value="$PROJECT_DIR$/app/js/controllers/EventController.js" />
         <option value="$PROJECT_DIR$/app/NewEvent.html" />
         <option value="$PROJECT_DIR$/app/js/services/EventData.js" />
         <option value="$PROJECT_DIR$/app/js/controllers/EditEventController.js" />
+        <option value="$PROJECT_DIR$/app/EventDetails.html" />
+        <option value="$PROJECT_DIR$/app/js/controllers/EventController.js" />
       </list>
     </option>
   </component>
@@ -427,16 +425,16 @@
       <workItem from="1460965046603" duration="1480000" />
       <workItem from="1460987229028" duration="602000" />
       <workItem from="1461064054409" duration="434000" />
-      <workItem from="1461080696276" duration="1707000" />
+      <workItem from="1461080696276" duration="2090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45661000" />
+    <option name="totallyTimeSpent" value="46044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="9" width="800" height="835" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24934383" sideWeight="0.48401827" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -497,7 +495,7 @@
         <state relative-caret-position="306">
           <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
           <folding>
-            <marker date="1460812818305" expanded="true" signature="558:567" placeholder="..." />
+            <marker date="1461082779009" expanded="true" signature="572:581" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -592,7 +590,7 @@
         <state relative-caret-position="255">
           <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
-            <marker date="1460812818305" expanded="true" signature="558:567" placeholder="..." />
+            <marker date="1461082779009" expanded="true" signature="572:581" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -651,7 +649,7 @@
         <state relative-caret-position="1071">
           <caret line="63" column="2" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
           <folding>
-            <marker date="1460812818305" expanded="true" signature="558:567" placeholder="..." />
+            <marker date="1461082779009" expanded="true" signature="572:581" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -703,7 +701,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
           <folding>
-            <marker date="1460812818305" expanded="true" signature="558:567" placeholder="..." />
+            <marker date="1461082779009" expanded="true" signature="572:581" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -836,14 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/EventDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/data/event/999.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -862,16 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/EventController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <marker date="1460812818305" expanded="true" signature="558:567" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers/EditProfileController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -885,6 +865,24 @@
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/EventDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/EventController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+          <folding>
+            <marker date="1461082779009" expanded="true" signature="572:581" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
