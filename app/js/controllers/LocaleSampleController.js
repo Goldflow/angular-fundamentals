@@ -12,6 +12,8 @@ function LocaleSampleController($scope, $locale) {
     //myFormat is set to full date property of locale date time format
     $scope.myFormat = $locale.DATETIME_FORMATS.fullDate;
 
+    //to try out ExceptionHandler, uncomment below line
+    //throw {message: 'error message thrown on purpose m0f0'};
 
 
 })
