@@ -1,7 +1,37 @@
+## notes from Karim ##
+
+short, relevant version of text below the line:
+
+#### clone project: ####
+
+	git clone https://github.com/Goldflow/angular-fundamentals.git
+
+#### to run the project: ####
+
+ navigate to folder & in cmd type:
+
+	server.bat
+
+(this will execute the web-server.js file in scripts folder & start up http server)
+
+navigate in browser to:
+
+	http://localhost:8000/
+<br/>
+<br/>
+<hr/>
+the text below is copied from the original Demo Application start project
+<hr/>
+
+
 # Angular Event Registration — Demo Application for Angular JS
+
+
+
 
 This project is a sample application demonstrating a more fully developed realistic single page
 angular application.
+
 
 ### Server
 
