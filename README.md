@@ -1,6 +1,12 @@
 ## notes from Karim ##
 
-short, relevant version of text below the line:
+My solutions for the Angular Fundamentals project so far.
+
+I wrote **a lot** of comments in the javascript so I hope it will be useful.
+
+Feel free to notify me of errors, changes or improvements
+
+([karim.dehbi@gmail.com](mailto:karim.dehbi@gmail.com))
 
 #### clone project: ####
 
